@@ -1,1 +1,20 @@
-books_database.xlsx
+
+Book Name	Author Name	Availability	No. of Copies	Subject
+"Miller and Freund’s Probability and Statistics 
+for Engineers"	Johnson. R.A., Miller. I.R	yes	20	PROBABILITY AND STATISTICS
+Introduction to Probability and Statistics	Milton. J. S. and Arnold. J.C	yes	20	PROBABILITY AND STATISTICS
+Mathematical Statistics	John E. Freund	yes	20	PROBABILITY AND STATISTICS
+Operating System Concepts	Abraham Silberschatz	yes	20	OPERATING SYSTEMS
+Modern Operating Systems	Andrew S Tanenbaum	yes	20	OPERATING SYSTEMS
+Introduction to Machine Learning	Ethem Alpaydin	yes	20	MACHINE LEARNING
+Machine Learning: An Algorithmic Perspective	Stephen Marsland	yes	20	MACHINE LEARNING
+Introducing Data Science	David Cielen, Arno D. B. Meysman	yes	20	FUNDAMENTALS OF DATA SCIENCE AND ANALYTICS
+Statistics	Robert S. Witte and John S. Witte	yes	20	PROBABILITY AND STATISTICS
+Python Data Science Handbook	Jake VanderPlas	yes	20	FUNDAMENTALS OF DATA SCIENCE AND ANALYTICS
+"Computer Networking, A Top-Down Approach Featuring 
+the Internet"	James F. Kurose, Keith W. Ross	yes	20	COMPUTER NETWORKS
+Data Communications and Networking with TCP/IP Protocol Suite	Behrouz A. Forouzan	yes	20	COMPUTER NETWORKS
+Environmental Science and Engineering	Benny Joseph	yes	20	ENVIRONMENTAL SCIENCES AND SUSTAINABILITY
+Introduction to Environmental Engineering and Science	Gilbert M.Masters	yes	20	ENVIRONMENTAL SCIENCES AND SUSTAINABILITY
+				
+				
