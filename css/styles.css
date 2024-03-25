@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images (8) (9).jpg'); /* Replace 'your-background-image.jpg' with the path to your image */
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat; /* Ensure the background image does not repeat */
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #fffb00; /* Changed to yellow */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #fffb00; /* Changed to yellow */
+    color: white;
+}
