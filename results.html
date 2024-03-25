@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book Search Results</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    
+</head>
+<body>
+    <h1> Book Search Results</h1>
+    <table>
+        <tr>
+            <th>Book Name</th>
+            <th>Author Name</th>
+            <th>Subject</th>
+            <th>No. of Copies</th>
+            <th>Availability</th>
+        </tr>
+        {% for index, row in results.iterrows() %}
+        <tr>
+            <td>{{ row['Book Name'] }}</td>
+            <td>{{ row['Author Name'] }}</td>
+            <td>{{ row['Subject'] }}</td>
+            <td>{{ row['No. of Copies'] }}</td>
+            <td>{{ "Available" if row['Availability'] else "Not Available" }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
